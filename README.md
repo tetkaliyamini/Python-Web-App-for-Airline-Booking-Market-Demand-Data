@@ -28,13 +28,8 @@ Before running this project, make sure you have:
 - npm or yarn package manager
 - OpenAI API key (optional - app works with mock insights if not provided)
 
-## 🔧 Installation & Setup
 
-### 1. Clone or Download the Project
-
-If you're using v0, click the "Download Code" button in the top right corner of the Block view, or copy the code files manually.
-
-### 2. Install Dependencies
+###  Install Dependencies
 
 \`\`\`bash
 npm install
@@ -42,7 +37,7 @@ npm install
 yarn install
 \`\`\`
 
-### 3. Environment Variables Setup
+###  Environment Variables Setup
 
 Create a \`.env.local\` file in the root directory:
 
@@ -50,9 +45,7 @@ Create a \`.env.local\` file in the root directory:
 # Optional: OpenAI API Key for AI insights
 OPENAI_API_KEY=your_openai_api_key_here
 
-# Optional: Other environment variables
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-\`\`\`
+
 
 **Note**: The app will work without an OpenAI API key by providing mock insights. To get real AI-generated insights:
 
@@ -165,42 +158,10 @@ Focus on specific metrics or business questions...
 \`
 \`\`\`
 
-## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
 
-### Deploy to Other Platforms
-
-The app is a standard Next.js application and can be deployed to:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
-- Any Node.js hosting service
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-1. **OpenAI API Error**
-   - Ensure your API key is correctly set in \`.env.local\`
-   - Check your OpenAI account has sufficient credits
-   - The app provides fallback mock insights if API fails
-
-2. **Charts Not Displaying**
-   - Ensure all dependencies are installed
-   - Check browser console for JavaScript errors
-   - Verify Recharts is properly imported
-
-3. **Data Not Loading**
-   - Check browser network tab for failed requests
-   - Ensure development server is running
-   - Verify mock data generation is working
+rking
 
 ### Performance Optimization
 
@@ -209,21 +170,7 @@ The app is a standard Next.js application and can be deployed to:
 - Consider using React.memo for chart components
 - Implement data pagination for large datasets
 
-## 📈 Future Enhancements
 
-### Potential Features
-- **Real-time Data Integration**: Connect to live airline APIs
-- **Advanced Filtering**: Date ranges, airline-specific filters
-- **Export Functionality**: PDF reports, CSV data export
-- **User Authentication**: Save preferences and custom dashboards
-- **Predictive Analytics**: Machine learning for demand forecasting
-- **Multi-region Support**: Expand beyond Australian routes
-- **Mobile App**: React Native version for mobile access
-
-### API Integration Options
-- **Amadeus Travel API**: Comprehensive travel data
-- **Skyscanner API**: Flight search and pricing
-- **IATA API**: Official airline industry data
 - **Google Travel Partner API**: Travel insights and trends
 
 ## 🤝 Contributing
@@ -240,13 +187,6 @@ This project was built as a demonstration for hostel business analysis. To contr
 
 This project is for demonstration purposes. Modify and use as needed for your business requirements.
 
-## 📞 Support
-
-For questions about implementation or customization:
-- Review the code comments for detailed explanations
-- Check the troubleshooting section above
-- Modify the mock data to match your specific needs
 
 ---
 
-**Built with ❤️ for the travel and hospitality industry**
